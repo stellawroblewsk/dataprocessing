@@ -17,38 +17,37 @@ from matplotlib import pyplot as plt
 
 # day_1_data = read_csv("C:/Users/crist/Dropbox/11-2021_Discrimination/Exp 3/Mouse 21/Analog Data/20220110_13_14_37_analogData.csv")
 # day_2_data = read_csv("C:/Users/crist/Dropbox/11-2021_Discrimination/Exp 3/Mouse 21/Analog Data/20220111_12_22_40_analogData.csv")
-# day_3_data = read_csv("C:/Users/crist/Dropbox/11-2021_Discrimination/Exp 3/Mouse 21/Analog Data/20220112_12_06_07_analogData.csv")
-# day_4_data = read_csv("C:/Users/crist/Dropbox/11-2021_Discrimination/Exp 3/Mouse 21/Analog Data/20220113_11_05_52_analogData.csv")
-# day_5_data = read_csv("C:/Users/crist/Dropbox/11-2021_Discrimination/Exp 3/Mouse 21/Analog Data/20220114_12_36_41_analogData.csv")
-# day_6_data = read_csv("C:/Users/crist/Dropbox/11-2021_Discrimination/Exp 3/Mouse 21/Analog Data/20220116_12_38_33_analogData.csv")
-# day_7_data = read_csv("C:/Users/crist/Dropbox/11-2021_Discrimination/Exp 3/Mouse 21/Analog Data/20220117_12_53_40_analogData.csv")
-# day_8_data = read_csv("C:/Users/crist/Dropbox/11-2021_Discrimination/Exp 3/Mouse 21/Analog Data/20220124_12_46_51_analogData.csv")
-# day_9_data = read_csv("C:/Users/crist/Dropbox/11-2021_Discrimination/Exp 3/Mouse 21/Analog Data/20220125_11_11_07_analogData.csv")
-# day_10_data = read_csv("C:/Users/crist/Dropbox/11-2021_Discrimination/Exp 3/Mouse 21/Analog Data/20220126_14_17_14_analogData.csv")
-# day_11_data = read_csv("C:/Users/crist/Dropbox/11-2021_Discrimination/Exp 3/Mouse 21/Analog Data/20220127_16_39_29_analogData.csv")
-# day_12_data = read_csv("C:/Users/crist/Dropbox/11-2021_Discrimination/Exp 3/Mouse 21/Analog Data/20220128_14_50_07_analogData.csv")
-# day_13_data = read_csv("C:/Users/crist/Dropbox/11-2021_Discrimination/Exp 3/Mouse 21/Analog Data/20220130_14_01_42_analogData.csv")
-# day_14_data = read_csv("C:/Users/crist/Dropbox/11-2021_Discrimination/Exp 3/Mouse 21/Analog Data/20220131_11_58_01_analogData.csv")
-# day_15_data = read_csv("C:/Users/crist/Dropbox/11-2021_Discrimination/Exp 3/Mouse 21/Analog Data/20220131_14_15_35_analogData.csv")
-
+# day_1_data = read_csv("C:/Users/crist/Dropbox/11-2021_Discrimination/Exp 3/Mouse 21/Analog Data/20220112_12_06_07_analogData.csv")
+# day_2_data = read_csv("C:/Users/crist/Dropbox/11-2021_Discrimination/Exp 3/Mouse 21/Analog Data/20220113_11_05_52_analogData.csv")
+# day_3_data = read_csv("C:/Users/crist/Dropbox/11-2021_Discrimination/Exp 3/Mouse 21/Analog Data/20220114_12_36_41_analogData.csv")
+# day_4_data = read_csv("C:/Users/crist/Dropbox/11-2021_Discrimination/Exp 3/Mouse 21/Analog Data/20220116_12_38_33_analogData.csv")
+# day_5_data = read_csv("C:/Users/crist/Dropbox/11-2021_Discrimination/Exp 3/Mouse 21/Analog Data/20220117_12_53_40_analogData.csv")
+# day_6_data = read_csv("C:/Users/crist/Dropbox/11-2021_Discrimination/Exp 3/Mouse 21/Analog Data/20220124_12_46_51_analogData.csv")
+# day_7_data = read_csv("C:/Users/crist/Dropbox/11-2021_Discrimination/Exp 3/Mouse 21/Analog Data/20220125_11_11_07_analogData.csv")
+# day_8_data = read_csv("C:/Users/crist/Dropbox/11-2021_Discrimination/Exp 3/Mouse 21/Analog Data/20220126_14_17_14_analogData.csv")
+# day_9_data = read_csv("C:/Users/crist/Dropbox/11-2021_Discrimination/Exp 3/Mouse 21/Analog Data/20220127_16_39_29_analogData.csv")
+# day_10_data = read_csv("C:/Users/crist/Dropbox/11-2021_Discrimination/Exp 3/Mouse 21/Analog Data/20220128_14_50_07_analogData.csv")
+# day_11_data = read_csv("C:/Users/crist/Dropbox/11-2021_Discrimination/Exp 3/Mouse 21/Analog Data/20220130_14_01_42_analogData.csv")
+# day_12_data = read_csv("C:/Users/crist/Dropbox/11-2021_Discrimination/Exp 3/Mouse 21/Analog Data/20220131_11_58_01_analogData.csv")
+# day_13_data = read_csv("C:/Users/crist/Dropbox/11-2021_Discrimination/Exp 3/Mouse 21/Analog Data/20220131_14_15_35_analogData.csv")
+# day_14_data = read_csv("C:/Users/crist/Dropbox/11-2021_Discrimination/Exp 3/Mouse 21/Analog Data/20220201_15_06_01_analogData.csv")
+# day_15_data = read_csv("C:/Users/crist/Dropbox/11-2021_Discrimination/Exp 3/Mouse 21/Analog Data/20220202_13_34_56_analogData.csv")
 
 day_1_data = read_csv("C:/Users/crist/Dropbox/11-2021_Discrimination/Exp 4/mouse 20/Analog Data/20220124_15_56_52_analogData.csv")
 day_2_data = read_csv("C:/Users/crist/Dropbox/11-2021_Discrimination/Exp 4/mouse 20/Analog Data/20220125_16_02_59_analogData.csv")
 day_3_data = read_csv("C:/Users/crist/Dropbox/11-2021_Discrimination/Exp 4/mouse 20/Analog Data/20220126_16_48_40_analogData.csv")
-day_4_data = read_csv("C:/Users/crist/Dropbox/11-2021_Discrimination/Exp 4/mouse 20/Analog Data/20220127_15_46_35_analogData.csv")
-day_5_data = read_csv("C:/Users/crist/Dropbox/11-2021_Discrimination/Exp 4/mouse 20/Analog Data/20220128_14_24_21_analogData.csv")
-day_6_data = read_csv("C:/Users/crist/Dropbox/11-2021_Discrimination/Exp 4/mouse 20/Analog Data/20220130_12_06_42_analogData.csv")
-day_7_data = read_csv("C:/Users/crist/Dropbox/11-2021_Discrimination/Exp 4/mouse 20/Analog Data/20220130_14_27_47_analogData.csv")
-day_8_data = read_csv("C:/Users/crist/Dropbox/11-2021_Discrimination/Exp 4/mouse 20/Analog Data/20220131_12_55_19_analogData.csv")
-day_9_data = read_csv("")
-day_10_data = read_csv("C:/Users/crist/Dropbox/11-2021_Discrimination/Exp 3/Mouse 21/Analog Data/20220126_14_17_14_analogData.csv")
+day_4_data = read_csv("C:/Users/crist/Dropbox/11-2021_Discrimination/Exp 4/mouse 24/Analog Data/20220205_16_58_53_analogData.csv")
+day_5_data = read_csv("C:/Users/crist/Dropbox/11-2021_Discrimination/Exp 4/mouse 24/Analog Data/20220206_17_03_07_analogData.csv")
+day_6_data = read_csv("C:/Users/crist/Dropbox/11-2021_Discrimination/Exp 4/mouse 24/Analog Data/20220207_14_07_01_analogData.csv")
+day_7_data = read_csv("C:/Users/crist/Dropbox/11-2021_Discrimination/Exp 4/mouse 24/Analog Data/20220131_11_02_52_analogData.csv")
+day_8_data = read_csv("C:/Users/crist/Dropbox/11-2021_Discrimination/Exp 4/mouse 24/Analog Data/20220131_13_23_18_analogData.csv")
+day_9_data = read_csv("C:/Users/crist/Dropbox/11-2021_Discrimination/Exp 4/mouse 24/Analog Data/20220201_14_39_46_analogData.csv")
+day_10_data = read_csv("C:/Users/crist/Dropbox/11-2021_Discrimination/Exp 4/mouse 24/Analog Data/20220202_13_10_13_analogData.csv")
 day_11_data = read_csv("C:/Users/crist/Dropbox/11-2021_Discrimination/Exp 3/Mouse 21/Analog Data/20220127_16_39_29_analogData.csv")
 day_12_data = read_csv("C:/Users/crist/Dropbox/11-2021_Discrimination/Exp 3/Mouse 21/Analog Data/20220128_14_50_07_analogData.csv")
 day_13_data = read_csv("C:/Users/crist/Dropbox/11-2021_Discrimination/Exp 3/Mouse 21/Analog Data/20220130_14_01_42_analogData.csv")
 day_14_data = read_csv("C:/Users/crist/Dropbox/11-2021_Discrimination/Exp 3/Mouse 21/Analog Data/20220131_11_58_01_analogData.csv")
 day_15_data = read_csv("C:/Users/crist/Dropbox/11-2021_Discrimination/Exp 3/Mouse 21/Analog Data/20220131_14_15_35_analogData.csv")
-
-
 
 # Read in files cs_p1, cs_p2, cs_m1, cs_m2 for cs+1 cs+2 cs-1 and cs-2 odors respectively
 
@@ -275,7 +274,6 @@ cs_minus_green_14 = day_14_data['Dev4_ai11'].tolist()
 cs_minus_green_15 = day_15_data['Dev4_ai11'].tolist()
 cs_minus_green = cs_minus_green_1 + cs_minus_green_2 + cs_minus_green_3 + cs_minus_green_4 + cs_minus_green_5 + cs_minus_green_6 + cs_minus_green_7 + cs_minus_green_8 + cs_minus_green_9 + cs_minus_green_10 + cs_minus_green_11 + cs_minus_green_12 + cs_minus_green_13 + cs_minus_green_14 + cs_minus_green_15
 
-
 odorless_oil_1 = day_1_data['Dev4_ai15'].tolist()
 odorless_oil_2 = day_2_data['Dev4_ai15'].tolist()
 odorless_oil_3 = day_3_data['Dev4_ai15'].tolist()
@@ -349,7 +347,7 @@ green_trial_tracker = []
 
 water_start = 0
 
-number_of_days = 15
+number_of_days = 3
 day_count = number_of_days*60
 
 trials = 60 * number_of_days
@@ -357,6 +355,7 @@ trial_start = 0
 
 criterion = {}
 trial_incl = list(range(0,trials))
+#trial_excl =[]
 
 trial = 0
 trial_baseline = 0
@@ -383,8 +382,9 @@ green_index = -1
 fliter_by_trial_type = True  #<---------- change to True if you want to output csv files separated by trials with data for all other analog inputs 
 
 #while trial < (day_count - 1): #<----bug
-for k in trial_incl :
+for k in range(0,len(trial_incl)-1) :
     curr_trial = ""
+    #if ((k in trial_excl) == False):    
     for i in range (trial_baseline,trial_range):
         if analog_output[i] > 4.1:
             #print("yes",trial)
@@ -413,64 +413,100 @@ for k in trial_incl :
             brown_index += 1
             curr_trial_type = "brown"
             break
-    for i in range(trial_start, trial_end):
-        if curr_trial_type == "yellow":
-            yellow_PID_output.append(PID[i])
-            yellow_motion_sensor_output.append(motion_sensor[i])
-            yellow_camera_trigger_output.append(camera_trigger[i])
-            yellow_laser_output.append(laser[i])
-            yellow_touch_sensor_output.append(touch_sensor[i])
-            yellow_analog_output_output.append(analog_output[i])
-            yellow_water_output.append(water[i])
-            yellow_final_valve_output.append(final_valve[i])
-            cs_plus_yellow_output.append(cs_plus_yellow[i])
-            yellow_odorless_oil_output.append(odorless_oil[i])
-            yellow_time_output.append(time[i])
-            yellow_trial_tracker.append(trial)
-        if curr_trial_type == "orange":
-            orange_PID_output.append(PID[i])
-            orange_motion_sensor_output.append(motion_sensor[i])
-            orange_camera_trigger_output.append(camera_trigger[i])
-            orange_laser_output.append(laser[i])
-            orange_touch_sensor_output.append(touch_sensor[i])
-            orange_analog_output_output.append(analog_output[i])
-            orange_water_output.append(water[i])
-            orange_final_valve_output.append(final_valve[i])
-            cs_plus_orange_output.append(cs_plus_orange[i])
-            orange_odorless_oil_output.append(odorless_oil[i])
-            orange_time_output.append(time[i])
-            orange_trial_tracker.append(trial)
-        if curr_trial_type == "brown":
-            brown_PID_output.append(PID[i])
-            brown_motion_sensor_output.append(motion_sensor[i])
-            brown_camera_trigger_output.append(camera_trigger[i])
-            brown_laser_output.append(laser[i])
-            brown_touch_sensor_output.append(touch_sensor[i])
-            brown_analog_output_output.append(analog_output[i])
-            brown_water_output.append(water[i])
-            brown_final_valve_output.append(final_valve[i])
-            cs_minus_brown_output.append(cs_minus_brown[i])
-            brown_odorless_oil_output.append(odorless_oil[i])
-            brown_time_output.append(time[i])
-            brown_trial_tracker.append(trial)
-        if curr_trial_type == "green":
-            green_PID_output.append(PID[i])
-            green_motion_sensor_output.append(motion_sensor[i])
-            green_camera_trigger_output.append(camera_trigger[i])
-            green_laser_output.append(laser[i])
-            green_touch_sensor_output.append(touch_sensor[i])
-            green_analog_output_output.append(analog_output[i])
-            green_water_output.append(water[i])
-            green_final_valve_output.append(final_valve[i])
-            cs_minus_green_output.append(cs_minus_green[i])
-            green_odorless_oil_output.append(odorless_oil[i])
-            green_time_output.append(time[i])
-            green_trial_tracker.append(trial)
+    ##########Filtering out trials with long touch sensor content in the 1 s before water 1s after water time range##########    
+    is_lick = False
+    time_count = 0
+    throw_out = False
+    for j in range (trial_start + 11000, trial_start + 13000):
+        if time_count < 500:
+            if touch_sensor[j] > 1:
+                time_count = time_count + 1
+                is_lick = True
+                if time_count >= 500:
+                    throw_out = True       
+            elif touch_sensor[j] < 1:
+                is_lick = False
+                time_count = 0
+        else:
+            throw_out = True
+            break 
+   
+    collection = False
+    
+    for j in range (trial_start + 12000, trial_start + 13000):
+        if (touch_sensor[j] > 1) and (curr_trial_type == "orange" or curr_trial_type == "yellow"):
+            collection = True
+            break
+    if curr_trial_type == "brown" or curr_trial_type == "green":
+        collection = True
+    # if throw_out == True:
+    #     print("bad trial detected, trial number ", trial, "trial type = ", curr_trial_type)
+    first_day = False
+    if(throw_out == False and collection == True) or (first_day == True):
+        
+        for i in range(trial_start, trial_end):
+            if curr_trial_type == "yellow":
+                yellow_PID_output.append(PID[i])
+                yellow_motion_sensor_output.append(motion_sensor[i])
+                yellow_camera_trigger_output.append(camera_trigger[i])
+                yellow_laser_output.append(laser[i])
+                yellow_touch_sensor_output.append(touch_sensor[i])
+                yellow_analog_output_output.append(analog_output[i])
+                yellow_water_output.append(water[i])
+                yellow_final_valve_output.append(final_valve[i])
+                cs_plus_yellow_output.append(cs_plus_yellow[i])
+                yellow_odorless_oil_output.append(odorless_oil[i])
+                yellow_time_output.append(time[i])
+                yellow_trial_tracker.append(trial)
+            if curr_trial_type == "orange":
+                orange_PID_output.append(PID[i])
+                orange_motion_sensor_output.append(motion_sensor[i])
+                orange_camera_trigger_output.append(camera_trigger[i])
+                orange_laser_output.append(laser[i])
+                orange_touch_sensor_output.append(touch_sensor[i])
+                orange_analog_output_output.append(analog_output[i])
+                orange_water_output.append(water[i])
+                orange_final_valve_output.append(final_valve[i])
+                cs_plus_orange_output.append(cs_plus_orange[i])
+                orange_odorless_oil_output.append(odorless_oil[i])
+                orange_time_output.append(time[i])
+                orange_trial_tracker.append(trial)
+            if curr_trial_type == "brown":
+                brown_PID_output.append(PID[i])
+                brown_motion_sensor_output.append(motion_sensor[i])
+                brown_camera_trigger_output.append(camera_trigger[i])
+                brown_laser_output.append(laser[i])
+                brown_touch_sensor_output.append(touch_sensor[i])
+                brown_analog_output_output.append(analog_output[i])
+                brown_water_output.append(water[i])
+                brown_final_valve_output.append(final_valve[i])
+                cs_minus_brown_output.append(cs_minus_brown[i])
+                brown_odorless_oil_output.append(odorless_oil[i])
+                brown_time_output.append(time[i])
+                brown_trial_tracker.append(trial)
+            if curr_trial_type == "green":
+                green_PID_output.append(PID[i])
+                green_motion_sensor_output.append(motion_sensor[i])
+                green_camera_trigger_output.append(camera_trigger[i])
+                green_laser_output.append(laser[i])
+                green_touch_sensor_output.append(touch_sensor[i])
+                green_analog_output_output.append(analog_output[i])
+                green_water_output.append(water[i])
+                green_final_valve_output.append(final_valve[i])
+                cs_minus_green_output.append(cs_minus_green[i])
+                green_odorless_oil_output.append(odorless_oil[i])
+                green_time_output.append(time[i])
+                green_trial_tracker.append(trial)
+    
+    if throw_out == False:
+       trial+=1
+    
     trial_baseline += 22000
     trial_range += 22000
-    trial += 1
+    #trial += 1
     print(trial)
-        
+
+print("creating data frames...")        
 df1 = pd.DataFrame({'CS+1':cs_plus_yellow_output})
 df2 = pd.DataFrame({'CS+2':cs_plus_orange_output})
 df3 = pd.DataFrame({'CS-1':cs_minus_brown_output})
@@ -531,22 +567,22 @@ df43 = pd.DataFrame({'Trial': orange_trial_tracker})
 df44 = pd.DataFrame({'Trial': brown_trial_tracker})
 df45 = pd.DataFrame({'Trial': green_trial_tracker})
 
-pd.concat([df100,df1,df5,df6,df7,df8,df9,df10,df11,df12,df13,df42],axis=1).to_csv('C:/Users/crist/Dropbox/11-2021_Discrimination/Exp 4/mouse 20/Processed Data/cs+1-mouse 20-9days.csv', index=False)
-cs_p1 = read_csv('C:/Users/crist/Dropbox/11-2021_Discrimination/Exp 4/mouse 20/Processed Data/cs+1-mouse 20-9days.csv')
+pd.concat([df100,df1,df5,df6,df7,df8,df9,df10,df11,df12,df13,df42],axis=1).to_csv('C:/Users/crist/Dropbox/11-2021_Discrimination/Exp 4/mouse 20/Processed Data/cs+1-mouse 20-filter_collection_3_days.csv', index=False)
+cs_p1 = read_csv('C:/Users/crist/Dropbox/11-2021_Discrimination/Exp 4/mouse 20/Processed Data/cs+1-mouse 20-filter_collection_3_days.csv')
 
-pd.concat([df101,df2,df14,df15,df16,df17,df18,df19,df20,df21,df22,df43],axis=1).to_csv('C:/Users/crist/Dropbox/11-2021_Discrimination/Exp 4/mouse 20/Processed Data/cs+2-mouse 20-9days.csv', index=False)
-cs_p2 = read_csv('C:/Users/crist/Dropbox/11-2021_Discrimination/Exp 4/mouse 20/Processed Data/cs+2-mouse 20-9days.csv')
+pd.concat([df101,df2,df14,df15,df16,df17,df18,df19,df20,df21,df22,df43],axis=1).to_csv('C:/Users/crist/Dropbox/11-2021_Discrimination/Exp 4/mouse 20/Processed Data/cs+2-mouse 20-filter_collection_3_days.csv', index=False)
+cs_p2 = read_csv('C:/Users/crist/Dropbox/11-2021_Discrimination/Exp 4/mouse 20/Processed Data/cs+2-mouse 20-filter_collection_3_days.csv')
 
-pd.concat([df102,df3,df23,df24,df25,df26,df27,df28,df29,df30,df31,df44],axis=1).to_csv('C:/Users/crist/Dropbox/11-2021_Discrimination/Exp 4/mouse 20/Processed Data/cs-1-mouse 20-9days.csv', index=False)
-cs_m1 = read_csv('C:/Users/crist/Dropbox/11-2021_Discrimination/Exp 4/mouse 20/Processed Data/cs-1-mouse 20-9days.csv')
+pd.concat([df102,df3,df23,df24,df25,df26,df27,df28,df29,df30,df31,df44],axis=1).to_csv('C:/Users/crist/Dropbox/11-2021_Discrimination/Exp 4/mouse 20/Processed Data/cs-1-mouse 20-filter_collection_3_days.csv', index=False)
+cs_m1 = read_csv('C:/Users/crist/Dropbox/11-2021_Discrimination/Exp 4/mouse 20/Processed Data/cs-1-mouse 20-filter_collection_3_days.csv')
 
-pd.concat([df103,df4, df32,df33,df34,df35,df36,df37,df38,df39,df40,df45],axis=1).to_csv('C:/Users/crist/Dropbox/11-2021_Discrimination/Exp 4/mouse 20/Processed Data/cs-2-mouse 20-9days.csv', index=False)
-cs_m2 = read_csv('C:/Users/crist/Dropbox/11-2021_Discrimination/Exp 4/mouse 20/Processed Data/cs-2-mouse 20-9days.csv')
+pd.concat([df103,df4, df32,df33,df34,df35,df36,df37,df38,df39,df40,df45],axis=1).to_csv('C:/Users/crist/Dropbox/11-2021_Discrimination/Exp 4/mouse 20/Processed Data/cs-2-mouse 20-filter_collection_3_days.csv', index=False)
+cs_m2 = read_csv('C:/Users/crist/Dropbox/11-2021_Discrimination/Exp 4/mouse 20/Processed Data/cs-2-mouse 20-filter_collection_3_days.csv')
 
-# cs_p1 = pd.read_csv(r"C:/Users/crist/Dropbox/11-2021_Discrimination/mouse 16/Processed Data/cs+1-mouse11-9days.csv")
-# cs_p2 = pd.read_csv(r"C:/Users/crist/Dropbox/11-2021_Discrimination/mouse 16/Processed Data/cs+2-mouse11-9days.csv")
-# cs_m1 = pd.read_csv(r"C:/Users/crist/Dropbox/11-2021_Discrimination/mouse 16/Processed Data/cs-1-mouse11-9days.csv")
-# cs_m2 = pd.read_csv(r"C:/Users/crist/Dropbox/11-2021_Discrimination/mouse 16/Processed Data/cs-2-mouse11-9days.csv")
+# cs_p1 = pd.read_csv(r"C:/Users/crist/Dropbox/11-2021_Discrimination/mouse 16/Processed Data/cs+1-mouse11-last3days.csv")
+# cs_p2 = pd.read_csv(r"C:/Users/crist/Dropbox/11-2021_Discrimination/mouse 16/Processed Data/cs+2-mouse11-last3days.csv")
+# cs_m1 = pd.read_csv(r"C:/Users/crist/Dropbox/11-2021_Discrimination/mouse 16/Processed Data/cs-1-mouse11-last3days.csv")
+# cs_m2 = pd.read_csv(r"C:/Users/crist/Dropbox/11-2021_Discrimination/mouse 16/Processed Data/cs-2-mouse11-last3days.csv")
 
 
 def break_trials(trials, cs):
@@ -592,30 +628,30 @@ print("Plotting figures...")
 # The last argument name must correspond exactly to the name of one of the columns in the csv file
 fig1 = plotter(trial_dfs_p1, '+1', 'Touch Sensor')
 fig1.set_size_inches(12.8, 9.6) # doubled default figure size in inches which was (6.4, 4.8) for higher res
-fig1.savefig('C:/Users/crist/Dropbox/11-2021_Discrimination/Exp 4/mouse 20/Processed Data/cs+1-mouse 20-9days.png', dpi=300)
+fig1.savefig('C:/Users/crist/Dropbox/11-2021_Discrimination/Exp 4/mouse 20/Processed Data/cs+1-mouse 20-filter_collection_3_days.png', dpi=300)
 
 fig2 = plotter(trial_dfs_p2, '+2', 'Touch Sensor')
 fig2.set_size_inches(12.8, 9.6) # doubled default figure size in inches which was (6.4, 4.8) for higher res
-fig2.savefig('C:/Users/crist/Dropbox/11-2021_Discrimination/Exp 4/mouse 20/Processed Data/cs+2-mouse 20-9days.png', dpi=300)
+fig2.savefig('C:/Users/crist/Dropbox/11-2021_Discrimination/Exp 4/mouse 20/Processed Data/cs+2-mouse 20-filter_collection_3_days.png', dpi=300)
 
 fig3 = plotter(trial_dfs_m1, '-1', 'Touch Sensor')
 fig3.set_size_inches(12.8, 9.6) # doubled default figure size in inches which was (6.4, 4.8) for higher res
-fig3.savefig('C:/Users/crist/Dropbox/11-2021_Discrimination/Exp 4/mouse 20/Processed Data/cs-1-mouse 20-9days.png', dpi=300)
+fig3.savefig('C:/Users/crist/Dropbox/11-2021_Discrimination/Exp 4/mouse 20/Processed Data/cs-1-mouse 20-filter_collection_3_days.png', dpi=300)
 
 fig4 = plotter(trial_dfs_m2, '-2', 'Touch Sensor')
 fig4.set_size_inches(12.8, 9.6) # doubled default figure size in inches which was (6.4, 4.8) for higher res
-fig4.savefig('C:/Users/crist/Dropbox/11-2021_Discrimination/Exp 4/mouse 20/Processed Data/cs-2-mouse 20-9days.png', dpi=300)
+fig4.savefig('C:/Users/crist/Dropbox/11-2021_Discrimination/Exp 4/mouse 20/Processed Data/cs-2-mouse 20-filter_collection_3_days.png', dpi=300)
 
 
-im1 = cv2.imread('C:/Users/crist/Dropbox/11-2021_Discrimination/Exp 4/mouse 20/Processed Data/cs+1-mouse 20-9days.png')
-im2 = cv2.imread('C:/Users/crist/Dropbox/11-2021_Discrimination/Exp 4/mouse 20/Processed Data/cs+2-mouse 20-9days.png')
-im3 = cv2.imread('C:/Users/crist/Dropbox/11-2021_Discrimination/Exp 4/mouse 20/Processed Data/cs-1-mouse 20-9days.png')
-im4 = cv2.imread('C:/Users/crist/Dropbox/11-2021_Discrimination/Exp 4/mouse 20/Processed Data/cs-2-mouse 20-9days.png')
+im1 = cv2.imread('C:/Users/crist/Dropbox/11-2021_Discrimination/Exp 4/mouse 20/Processed Data/cs+1-mouse 20-filter_collection_3_days.png')
+im2 = cv2.imread('C:/Users/crist/Dropbox/11-2021_Discrimination/Exp 4/mouse 20/Processed Data/cs+2-mouse 20-filter_collection_3_days.png')
+im3 = cv2.imread('C:/Users/crist/Dropbox/11-2021_Discrimination/Exp 4/mouse 20/Processed Data/cs-1-mouse 20-filter_collection_3_days.png')
+im4 = cv2.imread('C:/Users/crist/Dropbox/11-2021_Discrimination/Exp 4/mouse 20/Processed Data/cs-2-mouse 20-filter_collection_3_days.png')
 
 im_1 = cv2.vconcat([im1,im2])
 im_2 = cv2.vconcat([im3,im4])
 im_3 = cv2.hconcat([im_1,im_2])
-cv2.imwrite("C:/Users/crist/Dropbox/11-2021_Discrimination/Exp 4/mouse 20/Processed Data/1b-mouse 20-9days.jpg",im_3)
+cv2.imwrite("C:/Users/crist/Dropbox/11-2021_Discrimination/Exp 4/mouse 20/Processed Data/1b-mouse 20-filter_collection_3_days.jpg",im_3)
 print("Done!")
 
 
